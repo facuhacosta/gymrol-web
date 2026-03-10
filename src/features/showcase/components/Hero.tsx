@@ -29,7 +29,7 @@ const Hero = () => {
         >
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-white mb-4 tracking-tighter drop-shadow-2xl">
             {t.title} <br />
-            <span className="text-yellow-500">{t.titleAccent}</span>
+            <span className="text-primary">{t.titleAccent}</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto font-light leading-relaxed">
             {t.subtitle}
@@ -47,7 +47,7 @@ const Hero = () => {
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => trackDownload('Hero_Main')}
-            className="flex items-center justify-center gap-2 bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-4 px-8 rounded-full text-lg transition-all hover:scale-105 shadow-[0_0_20px_rgba(234,179,8,0.5)]"
+            className="flex items-center justify-center gap-2 bg-primary hover:bg-yellow-400 text-black font-bold py-4 px-8 rounded-full text-lg transition-all hover:scale-105 shadow-[0_0_20px_rgba(234,179,8,0.5)]"
           >
             <Download size={24} />
             {t.ctaPrimary}
@@ -56,7 +56,7 @@ const Hero = () => {
             className="flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-electric-blue/30 font-bold py-4 px-8 rounded-full text-lg transition-all hover:scale-105"
             onClick={() => window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank')}
           >
-            <Trophy size={24} className="text-yellow-500" />
+            <Trophy size={24} className="text-primary" />
             {t.ctaSecondary}
           </button>
         </motion.div>
@@ -68,7 +68,7 @@ const Hero = () => {
            className="absolute md:hidden bottom-10 left-1/2 -translate-x-1/2 text-white/50 text-sm animate-pulse flex flex-col items-center gap-2"
         >
            <span>{t.scroll}</span>
-           <div className="w-1 h-8 bg-gradient-to-b from-yellow-500 to-transparent rounded-full" />
+           <div className="w-1 h-8 bg-gradient-to-b from-primary to-transparent rounded-full" />
         </motion.div>
       </div>
     </section>

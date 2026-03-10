@@ -44,10 +44,10 @@ const SidePanel = () => {
           animate={{ x: 0, opacity: 1 }}
           exit={{ x: 400, opacity: 0 }}
           transition={{ type: "spring", stiffness: 100, damping: 20 }}
-          className="fixed right-8 top-1/2 -translate-y-1/2 z-40 hidden md:flex flex-col w-[300px] h-[600px] bg-zinc-900 border-2 border-yellow-500 rounded-2xl shadow-[0_0_50px_rgba(234,179,8,0.3)] overflow-hidden"
+          className="fixed right-8 top-1/2 -translate-y-1/2 z-40 hidden md:flex flex-col w-[300px] h-[600px] bg-zinc-900 border-2 border-primary rounded-2xl shadow-[0_0_50px_rgba(234,179,8,0.3)] overflow-hidden"
         >
           {/* Header */}
-          <div className="bg-yellow-500 p-4 flex justify-between items-center text-black">
+          <div className="bg-primary p-4 flex justify-between items-center text-black">
             <div className="flex items-center gap-2 font-bold">
               <Gift size={20} />
               <span>{t.subtitle}</span>
@@ -69,7 +69,7 @@ const SidePanel = () => {
               <ul className="text-left text-gray-300 space-y-3 mb-6 bg-zinc-800/50 p-4 rounded-lg mt-4">
                 {t.items.map((item, index) => (
                   <li key={index} className="flex items-center gap-2 text-sm">
-                    <span className="text-yellow-500">★</span> {item}
+                    <span className="text-primary">★</span> {item}
                   </li>
                 ))}
               </ul>
@@ -89,7 +89,7 @@ const SidePanel = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => { trackDownload('SidePanel_Offer'); handleClose(); }}
-                className="block w-full bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-3 rounded-xl transition-transform hover:scale-105 shadow-lg mb-2"
+                className="block w-full bg-primary hover:bg-yellow-400 text-black font-bold py-3 rounded-xl transition-transform hover:scale-105 shadow-lg mb-2"
               >
                 {t.button}
               </a>

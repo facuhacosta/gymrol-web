@@ -28,8 +28,8 @@ const Features = () => {
       icon: <Sword className="w-10 h-10" />,
       title: t.items[0].title,
       description: t.items[0].description,
-      color: "text-yellow-500",
-      border: "hover:border-yellow-500"
+      color: "text-primary",
+      border: "hover:border-primary"
     },
     {
       icon: <Flame className="w-10 h-10" />,
@@ -42,8 +42,8 @@ const Features = () => {
       icon: <Shield className="w-10 h-10" />,
       title: t.items[2].title,
       description: t.items[2].description,
-      color: "text-yellow-500",
-      border: "hover:border-yellow-500"
+      color: "text-primary",
+      border: "hover:border-primary"
     },
     {
       icon: <User className="w-10 h-10" />,
@@ -70,7 +70,7 @@ const Features = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.title}</h2>
-          <div className="w-24 h-1 bg-yellow-500 mx-auto rounded-full" />
+          <div className="w-24 h-1 bg-primary mx-auto rounded-full" />
         </div>
 
         {/* Carousel Container */}
@@ -78,16 +78,16 @@ const Features = () => {
           {/* Arrows */}
           <button 
             onClick={() => scroll('left')}
-            className="absolute -left-4 md:-left-12 top-1/2 -translate-y-1/2 z-10 bg-yellow-500/10 hover:bg-yellow-500/20 p-3 rounded-full border border-yellow-500/20 transition-all opacity-0 group-hover:opacity-100"
+            className="absolute -left-4 md:-left-12 top-1/2 -translate-y-1/2 z-10 bg-primary/10 hover:bg-primary/20 p-3 rounded-full border border-primary/20 transition-all opacity-0 group-hover:opacity-100"
           >
-            <ChevronLeft size={24} className="text-yellow-500" />
+            <ChevronLeft size={24} className="text-primary" />
           </button>
           
           <button 
             onClick={() => scroll('right')}
-            className="absolute -right-4 md:-right-12 top-1/2 -translate-y-1/2 z-10 bg-yellow-500/10 hover:bg-yellow-500/20 p-3 rounded-full border border-yellow-500/20 transition-all opacity-0 group-hover:opacity-100"
+            className="absolute -right-4 md:-right-12 top-1/2 -translate-y-1/2 z-10 bg-primary/10 hover:bg-primary/20 p-3 rounded-full border border-primary/20 transition-all opacity-0 group-hover:opacity-100"
           >
-            <ChevronRight size={24} className="text-yellow-500" />
+            <ChevronRight size={24} className="text-primary" />
           </button>
 
           <div 

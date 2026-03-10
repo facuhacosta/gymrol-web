@@ -37,7 +37,7 @@ const Header = () => {
     >
       <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
         <a href="#" className="flex items-center gap-2 text-white font-bold text-xl md:text-2xl">
-          <div className="w-10 h-10 bg-yellow-500 rounded-lg flex items-center justify-center overflow-hidden shadow-[0_0_15px_rgba(234,179,8,0.4)]">
+          <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center overflow-hidden shadow-[0_0_15px_rgba(234,179,8,0.4)]">
             <img 
               src="/logo.jpeg" 
               alt="HeroHabit Logo" 
@@ -73,7 +73,7 @@ const Header = () => {
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => trackDownload('Header_Desktop')}
-            className="bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-2 px-6 rounded-full transition-transform hover:scale-105"
+            className="bg-primary hover:bg-yellow-400 text-black font-bold py-2 px-6 rounded-full transition-transform hover:scale-105"
           >
             {t.download}
           </a>
@@ -124,7 +124,7 @@ const Header = () => {
                 href="https://play.google.com/store?utm_source=header_mobile&utm_medium=website"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-3 px-8 rounded-full w-full text-center mt-2"
+                className="bg-primary hover:bg-yellow-400 text-black font-bold py-3 px-8 rounded-full w-full text-center mt-2"
                 onClick={() => { setIsOpen(false); trackDownload('Header_Mobile'); }}
               >
                 {t.download}

@@ -9,6 +9,7 @@ export default {
     },
     extend: {
       colors: {
+        primary: '#FE9A3C',
         'electric-green': '#39ff14',
         'electric-blue': '#00f6ff',
         'electric-purple': '#9400d3',

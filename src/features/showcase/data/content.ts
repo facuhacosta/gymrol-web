@@ -22,20 +22,20 @@ export const galleryContent = {
     title: "Vistazo al Reino",
     subtitle: "Explora la interfaz de tu nueva vida.",
     captions: [
+      "Registro",
       "Creación de Héroe",
       "Inventario y Botín",
-      "Mapa de Misiones",
-      "Batalla contra el Dragón"
+      "Mapa de Misiones"
     ]
   },
   en: {
     title: "Glimpse of the Realm",
     subtitle: "Explore the interface of your new life.",
     captions: [
+      "Sign up",
       "Hero Creation",
       "Inventory & Loot",
-      "Quest Map",
-      "Dragon Battle"
+      "Quest Map"
     ]
   }
 };

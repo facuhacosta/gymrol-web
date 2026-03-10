@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center gap-8 mb-8">
           <div className="flex items-center gap-2 text-white font-bold text-2xl">
-            <div className="w-10 h-10 bg-yellow-500 rounded-lg flex items-center justify-center overflow-hidden">
+            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center overflow-hidden">
               <img
                 src="/logo.jpeg" 
                 alt="HeroHabit Logo" 
@@ -22,10 +22,10 @@ const Footer = () => {
           </div>
           
           <div className="flex gap-6">
-            <a href="#" className="hover:text-yellow-500 transition-colors"><Facebook /></a>
-            <a href="#" className="hover:text-yellow-500 transition-colors"><Twitter /></a>
-            <a href="#" className="hover:text-yellow-500 transition-colors"><Instagram /></a>
-            <a href="#" className="hover:text-yellow-500 transition-colors"><Youtube /></a>
+            <a target="_blank" href="https://www.tiktok.com/@herohabit?_r=1&_t=ZS-94aBxath8XH" className="hover:text-primary transition-colors"><Facebook /></a>
+            <a target="_blank" href="https://twitter.com/herohabit_es" className="hover:text-primary transition-colors"><Twitter /></a>
+            <a target="_blank" href="https://www.instagram.com/herohabit.es?igsh=MTB4Y3Rqem9uZmhhMQ==" className="hover:text-primary transition-colors"><Instagram /></a>
+            <a target="_blank" href="https://www.youtube.com/@herohabit-es" className="hover:text-primary transition-colors"><Youtube /></a>
           </div>
         </div>
         

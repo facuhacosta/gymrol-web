@@ -13,7 +13,7 @@ const Classes = () => {
   });
 
   const icons = [
-    <Dumbbell className="w-16 h-16 text-yellow-500" />,
+    <Dumbbell className="w-16 h-16 text-primary" />,
     <Wind className="w-16 h-16 text-electric-green" />,
     <Heart className="w-16 h-16 text-red-500" />,
     <Zap className="w-16 h-16 text-electric-blue" />,
@@ -21,7 +21,7 @@ const Classes = () => {
   ];
 
   const colors = [
-    "border-yellow-500/50 hover:border-yellow-500",
+    "border-primary/50 hover:border-primary",
     "border-electric-green/30 hover:border-electric-green",
     "border-red-500/30 hover:border-red-500",
     "border-electric-blue/30 hover:border-electric-blue",
@@ -39,7 +39,7 @@ const Classes = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.title}</h2>
-          <div className="w-24 h-1 bg-yellow-500 mx-auto rounded-full" />
+          <div className="w-24 h-1 bg-primary mx-auto rounded-full" />
           <p className="mt-4 text-gray-400 max-w-2xl mx-auto">{t.subtitle}</p>
         </motion.div>
 

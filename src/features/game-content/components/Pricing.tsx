@@ -23,7 +23,7 @@ const Pricing = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.title}</h2>
-          <div className="w-24 h-1 bg-yellow-500 mx-auto rounded-full" />
+          <div className="w-24 h-1 bg-primary mx-auto rounded-full" />
           <p className="mt-4 text-gray-400 max-w-2xl mx-auto">{t.subtitle}</p>
         </motion.div>
 
@@ -36,12 +36,12 @@ const Pricing = () => {
               transition={{ delay: index * 0.2, duration: 0.5 }}
               className={`flex-1 p-8 rounded-3xl border-2 flex flex-col ${
                 plan.popular 
-                  ? "border-yellow-500 bg-zinc-900 shadow-[0_0_30px_rgba(234,179,8,0.2)] scale-105 z-10" 
+                  ? "border-primary bg-zinc-900 shadow-[0_0_30px_rgba(234,179,8,0.2)] scale-105 z-10" 
                   : "border-zinc-800 bg-zinc-900/50"
               }`}
             >
               {plan.popular && (
-                <div className="bg-yellow-500 text-black font-bold text-xs uppercase py-1 px-3 rounded-full self-start mb-4 flex items-center gap-1">
+                <div className="bg-primary text-black font-bold text-xs uppercase py-1 px-3 rounded-full self-start mb-4 flex items-center gap-1">
                   <ShieldCheck size={14} />
                   Recomendado
                 </div>
@@ -53,7 +53,7 @@ const Pricing = () => {
               <ul className="space-y-4 mb-8 flex-1">
                 {plan.features.map((feature, fIndex) => (
                   <li key={fIndex} className="flex items-center gap-3 text-gray-300">
-                    <Check size={18} className="text-yellow-500" />
+                    <Check size={18} className="text-primary" />
                     {feature}
                   </li>
                 ))}
@@ -61,7 +61,7 @@ const Pricing = () => {
               <button
                 className={`w-full py-4 rounded-xl font-bold transition-all hover:scale-105 ${
                   plan.popular 
-                    ? "bg-yellow-500 text-black hover:bg-yellow-400 shadow-lg shadow-yellow-500/20" 
+                    ? "bg-primary text-black hover:bg-yellow-400 shadow-lg shadow-primary/20" 
                     : "bg-zinc-800 text-white hover:bg-zinc-700"
                 }`}
               >

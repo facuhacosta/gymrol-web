@@ -13,10 +13,10 @@ const HowToPlay = () => {
   });
 
   const icons = [
-    <UserPlus className="w-12 h-12 text-yellow-500" />,
+    <UserPlus className="w-12 h-12 text-primary" />,
     <Sword className="w-12 h-12 text-electric-green" />,
     <Dumbbell className="w-12 h-12 text-electric-blue" />,
-    <Coins className="w-12 h-12 text-yellow-500" />,
+    <Coins className="w-12 h-12 text-primary" />,
     <Trophy className="w-12 h-12 text-electric-green" />
   ];
 
@@ -31,7 +31,7 @@ const HowToPlay = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.title}</h2>
-          <div className="w-24 h-1 bg-yellow-500 mx-auto rounded-full" />
+          <div className="w-24 h-1 bg-primary mx-auto rounded-full" />
           <p className="mt-4 text-gray-400 max-w-2xl mx-auto">{t.subtitle}</p>
         </motion.div>
 
@@ -43,12 +43,12 @@ const HowToPlay = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: index * 0.1, duration: 0.5 }}
-              className="min-w-[280px] md:min-w-0 snap-center bg-zinc-800/50 p-6 rounded-2xl border border-zinc-700 hover:border-yellow-500/30 transition-colors group flex flex-col items-center"
+              className="min-w-[280px] md:min-w-0 snap-center bg-zinc-800/50 p-6 rounded-2xl border border-zinc-700 hover:border-primary/30 transition-colors group flex flex-col items-center"
             >
               <div className="mb-6 bg-zinc-900 w-20 h-20 rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
                 {icons[index]}
               </div>
-              <h3 className="text-xl font-bold mb-4 text-center group-hover:text-yellow-500 transition-colors">{step.title}</h3>
+              <h3 className="text-xl font-bold mb-4 text-center group-hover:text-primary transition-colors">{step.title}</h3>
               <p className="text-gray-400 text-center text-sm leading-relaxed">
                 {step.description}
               </p>

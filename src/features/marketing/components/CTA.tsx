@@ -9,7 +9,7 @@ const CTA = () => {
   const t = ctaContent[language];
 
   return (
-    <section id="cta" className="py-24 bg-yellow-500 text-black overflow-hidden relative">
+    <section id="cta" className="py-24 bg-primary text-black overflow-hidden relative">
       <div className="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10" />
       
       <div className="container mx-auto px-4 relative z-10 text-center">

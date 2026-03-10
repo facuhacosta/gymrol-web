@@ -2,13 +2,13 @@ export const ctaContent = {
   es: {
     title: "¡Descarga HeroHabit Pronto!",
     subtitle: "La distancia entre quién eres y quién quieres ser es lo que haces hoy.",
-    button: "Comenzar mi Aventura",
+    button: "Proximamente",
     disclaimer: "*Siguenos en nuestras redes sociales para estar al tanto de nuestras novedades."
   },
   en: {
     title: "Download HeroHabit Soon!",
     subtitle: "The distance between who you are and who you want to be is what you do today.",
-    button: "Start My Adventure",
+    button: "Coming Soon",
     disclaimer: "*Follow us on our social media to stay up to date with our news."
   }
 };

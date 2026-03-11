@@ -18,7 +18,7 @@ function App() {
         <meta property="og:description" content="Convierte cada entrenamiento en progreso para tu personaje. ¡Únete a la aventura fitness definitiva!" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://gymrol-web.pages.dev/" />
-        <meta property="og:image" content="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=Fitness%20RPG%20mobile%20app%20banner%2C%20hero%20lifting%20weights%2C%20electric%20green%20and%20blue%20effects&image_size=landscape_16_9" />
+        <meta property="og:image" content="logo.png" />
         
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />

@@ -13,7 +13,7 @@ const Footer = () => {
           <div className="flex items-center gap-2 text-white font-bold text-2xl">
             <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center overflow-hidden">
               <img
-                src="/logo.jpeg" 
+                src="/logo.png" 
                 alt="HeroHabit Logo" 
                 className="w-full h-full object-cover"
               />

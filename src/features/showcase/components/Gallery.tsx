@@ -11,19 +11,19 @@ const Gallery = () => {
 
   const images = [
     {
-      src: "src/assets/login.png",
+      src: "login.png",
       alt: t.captions[0]
     },
     {
-      src: "src/assets/start-aventure.png",
+      src: "start-aventure.png",
       alt: t.captions[1]
     },
     {
-      src: "src/assets/dashboard.png",
+      src: "dashboard.png",
       alt: t.captions[2]
     },
     {
-      src: "src/assets/missions.png",
+      src: "missions.png",
       alt: t.captions[3]
     }
   ];

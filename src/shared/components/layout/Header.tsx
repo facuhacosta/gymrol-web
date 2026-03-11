@@ -39,7 +39,7 @@ const Header = () => {
         <a href="#" className="flex items-center gap-2 text-white font-bold text-xl md:text-2xl">
           <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center overflow-hidden shadow-[0_0_15px_rgba(234,179,8,0.4)]">
             <img 
-              src="/logo.jpeg" 
+              src="/logo.png" 
               alt="HeroHabit Logo" 
               className="w-full h-full object-cover"
             />
